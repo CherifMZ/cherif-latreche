@@ -25,7 +25,7 @@ export default function Hero() {
             className="text-5xl md:text-6xl font-semibold tracking-tight leading-tight"
           >
             <span className="bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-700 bg-clip-text text-transparent">
-              Developer & Researcher
+              Software Engineer & Researcher
             </span>
           </motion.h1>
 

@@ -33,10 +33,10 @@ export default function Experience() {
         </ol>
       </div>
 
-      <a href="#top" className="absolute left-6 bottom-6 inline-flex items-start py-16 md:py-0 md:items-center text-slate-600 hover:text-slate-800">
+      <a href="#top" className="absolute left-6 bottom-6 inline-flex items-center text-slate-600 hover:text-slate-800">
         <ChevronUp className="w-5 h-5" />
       </a>
-      <a href="#education" className="absolute right-6 bottom-6 inline-flex items-start py-16 md:py-0 md:items-center text-slate-600 hover:text-slate-800">
+      <a href="#education" className="absolute right-6 bottom-6 inline-flex items-center text-slate-600 hover:text-slate-800">
         <ChevronDown className="w-5 h-5" />
       </a>
     </section>

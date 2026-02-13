@@ -22,10 +22,10 @@ export default function Education() {
         </div>
       </div>
 
-      <a href="#experience" className="absolute left-6 bottom-6 inline-flex items-start py-16 md:py-0 md:items-center text-slate-600 hover:text-slate-800">
+      <a href="#experience" className="absolute left-6 bottom-6 inline-flex items-center text-slate-600 hover:text-slate-800">
         <ChevronUp className="w-5 h-5" />
       </a>
-      <a href="#highlights" className="absolute right-6 bottom-6 inline-flex items-start py-16 md:py-0 md:items-center text-slate-600 hover:text-slate-800">
+      <a href="#highlights" className="absolute right-6 bottom-6 inline-flex items-center text-slate-600 hover:text-slate-800">
         <ChevronDown className="w-5 h-5" />
       </a>
     </section>

@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail, GraduationCap, ChevronUp } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start flex items-center justify-center px-6 bg-white">
+    <section id="contact" className="relative min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start flex items-center justify-center px-6 bg-white">
       <div className="text-center">
         <h2 className="text-3xl font-semibold">Contact</h2>
 

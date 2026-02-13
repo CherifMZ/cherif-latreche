@@ -16,7 +16,7 @@ export default function Hero() {
   const reduce = useReducedMotion();
 
   return (
-    <section id="top" className="min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start flex items-center px-6">
+    <section id="top" className="relative min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start flex items-center px-6">
       <div className="mx-auto max-w-6xl grid md:grid-cols-12 gap-8 items-center w-full">
         <motion.div initial="hidden" animate="show" className="md:col-span-7">
           <motion.h1

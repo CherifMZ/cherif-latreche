@@ -6,7 +6,7 @@ import { experience } from "@/app/data/site";
 
 export default function Experience() {
   return (
-    <section id="experience" className="min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start flex items-center px-6">
+    <section id="experience" className="relative min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start flex items-center px-6">
       <div className="mx-auto max-w-6xl w-full">
         <h2 className="text-3xl font-semibold tracking-tight text-center">Experience</h2>
         {/* <p className="mt-2 text-slate-600 text-center">Roles + impact.</p> */}

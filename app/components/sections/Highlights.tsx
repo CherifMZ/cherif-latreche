@@ -55,7 +55,7 @@ export default function Highlights() {
   const a2 = highlights.awards[1];
 
   return (
-    <section id="highlights" className="min-h-[calc(100svh-57px)] md:min-h-[calc(100svh-57px)] md:h-screen md:md:snap-start flex items-center px-6">
+    <section id="highlights" className="min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start flex items-center px-6">
       <div className="mx-auto max-w-6xl w-full">
         <h2 className="text-3xl font-semibold tracking-tight text-center">Highlights</h2>
         {/* <p className="mt-2 text-slate-600 text-center">A compact snapshot: paper + awards.</p> */}

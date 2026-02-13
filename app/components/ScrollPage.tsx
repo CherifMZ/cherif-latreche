@@ -54,7 +54,7 @@ export default function ScrollPage({ children }: { children: React.ReactNode }) 
       />
       <div
         ref={scrollerRef}
-        className="h-[calc(100svh-57px)] overflow-y-auto scroll-smooth md:snap-y md:snap-mandatory"
+        className="h-[calc(100svh-var(--header-h))] overflow-y-auto scroll-smooth md:snap-y md:snap-mandatory"
       >
         {children}
       </div>

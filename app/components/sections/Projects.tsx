@@ -6,7 +6,7 @@ import { projects } from "@/app/data/site";
 
 export default function Projects() {
   return (
-    <section id="projects" className="min-h-[calc(100svh-57px)] md:min-h-[calc(100svh-57px)] md:h-screen md:md:snap-start flex items-center px-4">
+    <section id="projects" className="min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start flex items-center px-4">
       <div className="mx-auto max-w-6xl w-full">
         <h2 className="text-3xl font-semibold tracking-tight text-center">Projects</h2>
 

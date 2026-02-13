@@ -6,7 +6,7 @@ import { projects } from "@/app/data/site";
 
 export default function Projects() {
   return (
-    <section id="projects" className="relative min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start flex items-center px-4">
+    <section id="projects" className="relative min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start flex items-start py-16 md:py-0 md:items-center px-4">
       <div className="mx-auto max-w-6xl w-full">
         <h2 className="text-3xl font-semibold tracking-tight text-center">Projects</h2>
 
@@ -29,10 +29,10 @@ export default function Projects() {
         </div>
       </div>
 
-      <a href="#highlights" className="absolute left-6 bottom-6 inline-flex items-center text-slate-600 hover:text-slate-800">
+      <a href="#highlights" className="absolute left-6 bottom-6 inline-flex items-start py-16 md:py-0 md:items-center text-slate-600 hover:text-slate-800">
         <ChevronUp className="w-5 h-5" />
       </a>
-      <a href="#about" className="absolute right-6 bottom-6 inline-flex items-center text-slate-600 hover:text-slate-800">
+      <a href="#about" className="absolute right-6 bottom-6 inline-flex items-start py-16 md:py-0 md:items-center text-slate-600 hover:text-slate-800">
         <ChevronDown className="w-5 h-5" />
       </a>
     </section>

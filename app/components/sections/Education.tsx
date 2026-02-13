@@ -5,7 +5,7 @@ import { education } from "@/app/data/site";
 
 export default function Education() {
   return (
-    <section id="education" className="relative min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start flex items-center px-6 bg-white">
+    <section id="education" className="relative min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start flex items-start py-16 md:py-0 md:items-center px-6 bg-white">
       <div className="mx-auto max-w-6xl w-full">
         <h2 className="text-3xl font-semibold tracking-tight text-center">Education</h2>
         {/* <p className="mt-2 text-slate-600 text-center">Degrees & institutions.</p> */}
@@ -22,10 +22,10 @@ export default function Education() {
         </div>
       </div>
 
-      <a href="#experience" className="absolute left-6 bottom-6 inline-flex items-center text-slate-600 hover:text-slate-800">
+      <a href="#experience" className="absolute left-6 bottom-6 inline-flex items-start py-16 md:py-0 md:items-center text-slate-600 hover:text-slate-800">
         <ChevronUp className="w-5 h-5" />
       </a>
-      <a href="#highlights" className="absolute right-6 bottom-6 inline-flex items-center text-slate-600 hover:text-slate-800">
+      <a href="#highlights" className="absolute right-6 bottom-6 inline-flex items-start py-16 md:py-0 md:items-center text-slate-600 hover:text-slate-800">
         <ChevronDown className="w-5 h-5" />
       </a>
     </section>

@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start px-6 bg-white pb-20 flex items-center"
+      className="relative min-h-[calc(100svh-var(--header-h))] md:h-screen md:snap-start px-6 bg-white pb-20 flex items-start py-16 md:py-0 md:items-center"
     >
       <div className="mx-auto max-w-6xl w-full">
         <div className="rounded-3xl border border-slate-100 bg-white p-6 shadow-sm">
@@ -49,13 +49,13 @@ export default function About() {
 
       <a
         href="#projects"
-        className="absolute left-6 bottom-6 inline-flex items-center text-slate-600 hover:text-slate-800"
+        className="absolute left-6 bottom-6 inline-flex items-start py-16 md:py-0 md:items-center text-slate-600 hover:text-slate-800"
       >
         <ChevronUp className="w-5 h-5" />
       </a>
       <a
         href="#contact"
-        className="absolute right-6 bottom-6 inline-flex items-center text-slate-600 hover:text-slate-800"
+        className="absolute right-6 bottom-6 inline-flex items-start py-16 md:py-0 md:items-center text-slate-600 hover:text-slate-800"
       >
         <ChevronDown className="w-5 h-5" />
       </a>

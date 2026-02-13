@@ -5,7 +5,7 @@ import { ChevronDown, ChevronUp, Award, GraduationCap, FileText } from "lucide-r
 
 export default function Highlights() {
   return (
-    <section id="highlights" className="h-screen snap-start flex items-center px-4 bg-white">
+    <section id="highlights" className="min-h-[calc(100svh-57px)] md:min-h-[calc(100svh-57px)] md:h-screen md:md:snap-start flex items-center px-4 bg-white">
       <div className="mx-auto max-w-6xl w-full">
         <h2 className="text-3xl font-semibold tracking-tight text-center">Highlights</h2>
         <p className="mt-2 text-slate-600 text-center">

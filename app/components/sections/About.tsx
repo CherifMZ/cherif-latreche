@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative h-screen snap-start px-6 bg-white pb-20 flex items-center"
+      className="relative min-h-[calc(100svh-57px)] md:min-h-[calc(100svh-57px)] md:h-screen md:md:snap-start px-6 bg-white pb-20 flex items-center"
     >
       <div className="mx-auto max-w-6xl w-full">
         <div className="rounded-3xl border border-slate-100 bg-white p-6 shadow-sm">

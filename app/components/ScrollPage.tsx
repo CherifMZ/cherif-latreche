@@ -52,7 +52,10 @@ export default function ScrollPage({ children }: { children: React.ReactNode }) 
         className="fixed left-0 top-0 h-0.5 z-[60]"
         style={{ width: `${progress * 100}%`, background: "rgba(79,70,229,0.9)" }}
       />
-      <div ref={scrollerRef} className="h-[calc(100svh-57px)] overflow-y-auto snap-y snap-mandatory scroll-smooth">
+      <div
+        ref={scrollerRef}
+        className="h-[calc(100svh-57px)] overflow-y-auto scroll-smooth md:snap-y md:snap-mandatory"
+      >
         {children}
       </div>
       <DotNav active={active} />
